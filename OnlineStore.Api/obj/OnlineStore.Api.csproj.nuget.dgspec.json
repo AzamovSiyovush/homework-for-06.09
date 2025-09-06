@@ -1,0 +1,223 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Public\\dotnet\\month1\\week3\\classwork+homework\\OnlineStore.Api\\OnlineStore.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Public\\dotnet\\month1\\week3\\classwork+homework\\OnlineStore.Api\\OnlineStore.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Public\\dotnet\\month1\\week3\\classwork+homework\\OnlineStore.Api\\OnlineStore.Api.csproj",
+        "projectName": "OnlineStore.Api",
+        "projectPath": "C:\\Users\\Public\\dotnet\\month1\\week3\\classwork+homework\\OnlineStore.Api\\OnlineStore.Api.csproj",
+        "packagesPath": "C:\\Users\\amira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Public\\dotnet\\month1\\week3\\classwork+homework\\OnlineStore.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\amira\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Public\\dotnet\\month1\\week3\\classwork+homework\\OnlineStore.Domain\\OnlineStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\Public\\dotnet\\month1\\week3\\classwork+homework\\OnlineStore.Domain\\OnlineStore.Domain.csproj"
+              },
+              "C:\\Users\\Public\\dotnet\\month1\\week3\\classwork+homework\\OnlineStore.Infrastructure\\OnlineStore.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Public\\dotnet\\month1\\week3\\classwork+homework\\OnlineStore.Infrastructure\\OnlineStore.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Public\\dotnet\\month1\\week3\\classwork+homework\\OnlineStore.Domain\\OnlineStore.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Public\\dotnet\\month1\\week3\\classwork+homework\\OnlineStore.Domain\\OnlineStore.Domain.csproj",
+        "projectName": "OnlineStore.Domain",
+        "projectPath": "C:\\Users\\Public\\dotnet\\month1\\week3\\classwork+homework\\OnlineStore.Domain\\OnlineStore.Domain.csproj",
+        "packagesPath": "C:\\Users\\amira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Public\\dotnet\\month1\\week3\\classwork+homework\\OnlineStore.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\amira\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Public\\dotnet\\month1\\week3\\classwork+homework\\OnlineStore.Infrastructure\\OnlineStore.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Public\\dotnet\\month1\\week3\\classwork+homework\\OnlineStore.Infrastructure\\OnlineStore.Infrastructure.csproj",
+        "projectName": "OnlineStore.Infrastructure",
+        "projectPath": "C:\\Users\\Public\\dotnet\\month1\\week3\\classwork+homework\\OnlineStore.Infrastructure\\OnlineStore.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\amira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Public\\dotnet\\month1\\week3\\classwork+homework\\OnlineStore.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\amira\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Public\\dotnet\\month1\\week3\\classwork+homework\\OnlineStore.Domain\\OnlineStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\Public\\dotnet\\month1\\week3\\classwork+homework\\OnlineStore.Domain\\OnlineStore.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

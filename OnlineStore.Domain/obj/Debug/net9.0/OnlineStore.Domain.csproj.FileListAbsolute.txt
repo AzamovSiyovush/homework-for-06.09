@@ -1,0 +1,11 @@
+C:\Users\Public\dotnet\month1\week3\classwork+homework\OnlineStore.Domain\bin\Debug\net9.0\OnlineStore.Domain.deps.json
+C:\Users\Public\dotnet\month1\week3\classwork+homework\OnlineStore.Domain\bin\Debug\net9.0\OnlineStore.Domain.dll
+C:\Users\Public\dotnet\month1\week3\classwork+homework\OnlineStore.Domain\bin\Debug\net9.0\OnlineStore.Domain.pdb
+C:\Users\Public\dotnet\month1\week3\classwork+homework\OnlineStore.Domain\obj\Debug\net9.0\OnlineStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Public\dotnet\month1\week3\classwork+homework\OnlineStore.Domain\obj\Debug\net9.0\OnlineStore.Domain.AssemblyInfoInputs.cache
+C:\Users\Public\dotnet\month1\week3\classwork+homework\OnlineStore.Domain\obj\Debug\net9.0\OnlineStore.Domain.AssemblyInfo.cs
+C:\Users\Public\dotnet\month1\week3\classwork+homework\OnlineStore.Domain\obj\Debug\net9.0\OnlineStore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Public\dotnet\month1\week3\classwork+homework\OnlineStore.Domain\obj\Debug\net9.0\OnlineStore.Domain.dll
+C:\Users\Public\dotnet\month1\week3\classwork+homework\OnlineStore.Domain\obj\Debug\net9.0\refint\OnlineStore.Domain.dll
+C:\Users\Public\dotnet\month1\week3\classwork+homework\OnlineStore.Domain\obj\Debug\net9.0\OnlineStore.Domain.pdb
+C:\Users\Public\dotnet\month1\week3\classwork+homework\OnlineStore.Domain\obj\Debug\net9.0\ref\OnlineStore.Domain.dll
