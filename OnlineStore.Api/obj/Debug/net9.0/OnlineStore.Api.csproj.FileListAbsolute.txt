@@ -39,3 +39,4 @@ C:\Users\Public\dotnet\month1\week3\classwork+homework\OnlineStore.Api\obj\Debug
 C:\Users\Public\dotnet\month1\week3\classwork+homework\OnlineStore.Api\obj\Debug\net9.0\OnlineStore.Api.pdb
 C:\Users\Public\dotnet\month1\week3\classwork+homework\OnlineStore.Api\obj\Debug\net9.0\OnlineStore.Api.genruntimeconfig.cache
 C:\Users\Public\dotnet\month1\week3\classwork+homework\OnlineStore.Api\obj\Debug\net9.0\ref\OnlineStore.Api.dll
+C:\Users\Public\dotnet\month1\week3\classwork+homework\OnlineStore.Api\obj\Debug\net9.0\OnlineStore.Api.sourcelink.json

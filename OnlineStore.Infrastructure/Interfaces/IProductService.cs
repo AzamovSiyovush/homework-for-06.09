@@ -1,15 +1,14 @@
 using System;
 using OnlineStore.Domain.Entities;
-
+using OnlineStore.Infrastructure.ApiResponses;
 namespace OnlineStore.Infrastructure.Interfaces;
-
 public interface IProductService
 {
-    List<Product> GetAll();
-    Product GetProductById(int id);
-    int Create(Product product);
-    int UpdateProduct( Product product);
-    int DeleteProduct(int id);
-    List<Product> GetProductsByCategory(string category);
-    List<string> GetUniqueManufacturer();
+    Task<Response<List<Product>>> GetAll();
+     Task<Response<Product>> GetProductById(int id);
+     Task<Response<string>> Create(Product product);
+     Task<Response<string>> UpdateProduct( Product product);
+     Task<Response<string>> DeleteProduct(int id);
+    Task<Response<List<Product>>> GetProductsByCategory(string category);
+    Task<Response<List<string>>> GetUniqueManufacturer();
 }

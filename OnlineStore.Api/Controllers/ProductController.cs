@@ -1,6 +1,7 @@
 using System;
 using Microsoft.AspNetCore.Mvc;
 using OnlineStore.Domain.Entities;
+using OnlineStore.Infrastructure.ApiResponses;
 using OnlineStore.Infrastructure.Interfaces;
 using OnlineStore.Infrastructure.Services;
 
@@ -12,47 +13,49 @@ public class ProductController
 {
     private readonly IProductService _productservice = new ProductService();
     [HttpGet]
-    public List<Product> GetProducts()
+    public async Task<Response<List<Product>>> GetProducts()
     {
         var products = _productservice.GetAll();
-        return products;
+        return await products;
     }
     [HttpPost]
-    public string CreateProduct(Product product)
+    public async Task<Response<string>> CreateProduct(Product product)
     {
         var products = _productservice.Create(product);
-        if (products == 0)
-        {
-            System.Console.WriteLine("Product not creaated");
-        }
-        return "Product created";
+       
+        return await products;
     }
     [HttpPut]
-    public string UpdateProduct(Product product)
+    public async Task<Response<string>> UpdateProduct(Product product)
     {
         var products = _productservice.UpdateProduct(product);
-        if (products == 0)
-        {
-            return "product not updated";
-        }
-        return "product updated";
+        return await products;
     }
 
     [HttpDelete]
-    public string DeleteProduct(int id)
+    public async Task<Response<string>> DeleteProduct(int id)
     {
         var products = _productservice.DeleteProduct(id);
-        if (products == 0)
-        {
-            return "not deleted";
-        }
-        return "deleted successfully";
+        return await products;
+        
     }
     [HttpGet("UniqueManufacturer")]
-    public List<string> GetUniqueManufacturer()
+    public async Task<Response<List<string>>> GetUniqueManufacturer()
     {
         var products = _productservice.GetUniqueManufacturer();
-        return products;
+        return await products;
+    }
+
+    [HttpGet("{id:int}")]
+    public async Task<Response<Product>> GetProductById(int id)
+    {
+        var products = _productservice.GetProductById(id);
+        return await products;
+    }
+
+    [HttpGet("{category}")]
+    public async Task<Response<List<Product>>> GetProductsByCategory(string category)
+    {
+       return await  _productservice.GetProductsByCategory(category);
     }
 }
-

@@ -13,3 +13,4 @@ C:\Users\Public\dotnet\month1\week3\classwork+homework\OnlineStore.Infrastructur
 C:\Users\Public\dotnet\month1\week3\classwork+homework\OnlineStore.Infrastructure\obj\Debug\net9.0\refint\OnlineStore.Infrastructure.dll
 C:\Users\Public\dotnet\month1\week3\classwork+homework\OnlineStore.Infrastructure\obj\Debug\net9.0\OnlineStore.Infrastructure.pdb
 C:\Users\Public\dotnet\month1\week3\classwork+homework\OnlineStore.Infrastructure\obj\Debug\net9.0\ref\OnlineStore.Infrastructure.dll
+C:\Users\Public\dotnet\month1\week3\classwork+homework\OnlineStore.Infrastructure\obj\Debug\net9.0\OnlineStore.Infrastructure.sourcelink.json
